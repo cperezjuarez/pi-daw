@@ -44,18 +44,18 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 
 </div>
 
-# Platinum
+# 🏆 Platinum
 
 Platinum es una aplicación web de tipo SPA. El objetivo de esta aplicación es el de crear un plataforma dónde puedas, a través de la vinculación de tu cuenta de Steam, obtener estadísticas de tus juegos y logros obtenidos en estos, comparar tus juegos y logros con los de tus amigos, participar en clasificaciones y retos y participar en los foros dónde se discuten temas relacionados con los videojuegos y guias para obtener logros específicos.
 
-# Recursos
+# 📘 Recursos
 
 Para más información sobre el desarrollo y estudio de este proyecto, se recomienda consultar los recursos disponibles en la carpeta **/docs** de este repositorio, dónde se encuentran los documentos de planificación, diseño y desarrollo del proyecto.
 
 > [!NOTE]
 > Documentación disponible en: [/docs/README.md](./docs/README.md).
 
-# Memoria del proyecto
+# 📄 Memoria del proyecto
 
 En la memoria del proyecto es un documento detallado que explica el proceso de desarrollo del proyecto, incluyendo la planificación, diseño, implementación y resultados obtenidos. Este documento es una parte fundamental del proyecto, ya que permite comprender el proceso de desarrollo y los resultados obtenidos, así como las decisiones tomadas durante el desarrollo del proyecto. Se recomienda consultar la memoria del proyecto para obtener una visión completa del desarrollo del proyecto y los resultados obtenidos.
 
@@ -64,7 +64,7 @@ Es importante tener en cuenta que la memoria del proyecto es el conjunto de todo
 > [!NOTE]
 > Memoria disponible en: [/memoria.pdf](./memoria.pdf).
 
-# Demo
+# 🎮 Demo
 
 Para acceder a la demo de la aplicación, puedes seguir las instrucciones disponibles en **/demo**. En esta carpeta se encuentra toda la documentación necesaria para ejecutar de una demo en tu máquina local, incluyendo los pasos para la instalación de dependencias, ejecución del servidor de desarrollo y construcción del proyecto para producción.
 
@@ -74,8 +74,8 @@ Para acceder a la demo de la aplicación, puedes seguir las instrucciones dispon
 > [!NOTE]
 > Para acceder al repositorio específico de la demo, dónde se encuentra toda la información detallada del código y desarrollo, puedes acceder a: [Platinum](https://github.com/Kiro85/entregables-projecte-final-dawpi2526_platinum_src).
 
-<hr>
-<p align="center"><small>La documentación del presente repositorio, incluyendo todos los archivos de extensión <i>.md</i> se distribuyen bajo <b>CC BY 4.0</b>. El codigo fuente encontrado dentro de la carpeta <i>/src</i> se distribuye bajo la licencia del repositorio <b>MIT License</b>.</small></p>
+# 📜 Licencia
+La licencia del proyecto es la **MIT License**, lo que significa que el proyecto es de código abierto y puede ser utilizado, modificado y distribuido libremente por cualquier persona, siempre y cuando se incluya el aviso de copyright y la licencia en todas las copias o partes sustanciales del software. Además, el software se proporciona "tal cual", sin garantía de ningún tipo, lo que significa que el autor no se hace responsable de ningún daño o problema que pueda surgir del uso del software. La documentación está bajo la licencia **CC BY-SA 4.0**, lo que significa que puedes compartir y adaptar la documentación siempre y cuando se atribuya correctamente al autor original y se comparta bajo la misma licencia. Para más información sobre la licencia de la documentación, puedes consultar el archivo LICENSE disponible en este repositorio.
 
 <div align="center">
 

@@ -57,11 +57,14 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
   - [Crear Usuario](#crear-usuario)
 - [Que hacer?](#que-hacer)
 
-# Preparación del entorno
+# 🎟️ Introducción
+En esta sección se proporciona una guía detallada para la preparación del entorno, ejecución y uso de la demo de Platinum. Esta guía está diseñada para facilitar a los usuarios la configuración y uso de la demo, asegurando que puedan experimentar todas las funcionalidades que ofrece la aplicación sin problemas. Se recomienda seguir cada paso cuidadosamente para garantizar una experiencia óptima con la demo de Platinum. Además, se incluyen consejos y advertencias para evitar posibles errores durante la configuración y uso de la demo, asegurando así que los usuarios puedan disfrutar de todas las características de la aplicación sin inconvenientes. Si se encuentra algún problema durante la configuración o uso de la demo, se recomienda revisar esta guía para asegurarse de que se han seguido todos los pasos correctamente, y en caso de persistir el problema, se sugiere consultar la documentación técnica del proyecto o buscar ayuda en la comunidad de desarrollo.
+
+# 🛠️ Preparación del entorno
 
 Para ejecutar la demo de Platinum es necesario preparar el entorno de desarrollo. Para ello se deben seguir los siguientes pasos:
 
-## Versiones de las tecnologías
+## 🕒 Versiones de las tecnologías
 
 Es necesario tener instaladas las siguientes tecnologías en las versiones indicadas para que la demo funcione correctamente:
 
@@ -78,7 +81,7 @@ Es necesario tener instaladas las siguientes tecnologías en las versiones indic
 > [!IMPORTANT]
 > Es fundamental asegurar que todas las versiones de las tecnologías estén correctamente instaladas para que la demo funcione sin problemas. No aseguramos el correcto funcionamiento de la demo si se utilizan versiones diferentes a las indicadas. Se recomienda seguir las instrucciones de instalación de cada tecnología para asegurar que se instalen correctamente.
 
-## Dependencias NPM
+## 📦 Dependencias NPM
 
 Se deben instalar las dependencias de npm necesarias para el correcto funcionamiento del proyecto. Para ello, se debe ejecutar el siguiente comando en la ruta `/demo/src/frontend`:
 
@@ -88,7 +91,7 @@ npm install
 
 Con esto se instalarán todas las dependencias necesarias para la ejecución de la demo. Es importante asegurarse de que no haya errores durante la instalación de las dependencias, ya que esto podría afectar el correcto funcionamiento de la demo.
 
-## Dependencias Maven
+## 📦 Dependencias Maven
 
 Se deben instalar las dependencias de maven necesarias para el correcto funcionamiento del proyecto. Para ello, se debe ejecutar el siguiente comando en la ruta `/demo/src/backend`:
 
@@ -96,7 +99,7 @@ Se deben instalar las dependencias de maven necesarias para el correcto funciona
 mvn install
 ```
 
-## Base de Datos
+## 🗃️ Base de Datos
 
 Para el uso de la demo es necesario restaurar la base de datos proporcionada en el archivo `platinum.sql` que se encuentra en la raíz de la carpeta `/demo/src`. Este archivo contiene toda la información necesaria para la correcta ejecución de la demo, incluyendo datos de usuarios, juegos y logros.
 
@@ -115,7 +118,7 @@ Para restaurar la base de datos, se debe seguir los siguientes pasos:
 > [!IMPORTANT]
 > Es **importante** que el nombre de usuario y contraseña de la base de datos sean `postgres` y `root` respectivamente, ya que estos datos están configurados en el proyecto para la conexión a la base de datos. Si se utilizan otros datos, será necesario modificar la configuración del proyecto para que funcione correctamente.
 
-# Ejecución
+# 🚀 Ejecución
 
 Una vez se han seguido todos los pasos anteriores, se puede proceder a la ejecución de la demo. Para ello, se deben ejecutar los siguientes comandos en las rutas correspondientes:
 
@@ -134,11 +137,11 @@ Y el siguiente comando en la ruta `/demo/src/backend`:
 mvn spring-boot:run
 ```
 
-# Uso de la demo
+# 🕒 Uso de la demo
 
 Una vez se han ejecutado los comandos anteriores, se puede acceder a la demo de Platinum a través de la siguiente URL: `http://localhost:4200`. Es importante asegurarse de que el servidor de desarrollo esté en ejecución antes de intentar acceder a la demo, ya que de lo contrario no se podrá acceder a ella.
 
-## Usuarios disponibles
+## 📊 Usuarios disponibles
 
 En la demo se han creado tres usuarios con cuentas vinculadas de Steam para facilitar su uso y permitir la visualización de las funciones de la aplicación. Estos usuarios son:
 
@@ -148,14 +151,14 @@ En la demo se han creado tres usuarios con cuentas vinculadas de Steam para faci
 | Cristian          | Cristian12345 |
 | Erik              | Erik12345     |
 
-## Crear Usuario
+## 📝 Crear Usuario
 
 Si se desea crear un nuevo usuario, se puede hacer a través de la página de registro de la demo. Una vez se ha creado el usuario, es necesario vincularlo con una cuenta de Steam para poder acceder a las funciones de la aplicación relacionadas con los juegos y logros. Para vincular una cuenta de Steam, se debe acceder al perfil de usuario y hacer click en el botón de vinculación de Steam. Es importante tener en cuenta que para vincular una cuenta de Steam, es necesario crear previamente una cuenta de Steam.
 
 > [!CAUTION]
 > Si se decide crear un usuario y vincularlo a una cuenta de Steam, es posible encontrarse un error. Una vez has iniciado tu sesión de Steam y se te redirige a la página de tu perfil de usuario en la demo, no verás tus datos hasta que no refresques la página.
 
-# ¿Qué otras cosas se pueden hacer?
+# 🤔 ¿Qué otras cosas se pueden hacer?
 
 Una vez se ha accedido a la demo, las funcionalidades dependen de si estás logueado o no. Si no estás logueado, podrás acceder a las siguientes funcionalidades:
 - Ver el catálogo de juegos.

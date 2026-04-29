@@ -44,6 +44,16 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 
 </div>
 
+# 🎟️ Introducción
+En esta sección se presenta la documentación y recursos relacionados con el desarrollo del Proyecto Intermodular del Grado Superior de Desarrollo de Aplicaciones Web. Este proyecto tiene como objetivo crear una aplicación web de tipo SPA que permita a los usuarios vincular su cuenta de Steam para obtener estadísticas de sus juegos y logros, comparar sus juegos y logros con los de sus amigos, participar en clasificaciones y retos, y participar en foros relacionados con videojuegos. En esta documentación se incluyen detalles sobre la planificación, diseño, implementación y resultados obtenidos durante el desarrollo del proyecto, así como los recursos utilizados y la memoria del proyecto. Se recomienda consultar esta documentación para obtener una visión completa del desarrollo del proyecto y los resultados obtenidos.
+
+## 🗂️ Estructura organizativa
+La documentación y recursos relacionados con el desarrollo se organizan de la siguiente manera:
+- **/docs**: Carpeta principal que contiene toda la documentación relacionada con el desarrollo del proyecto.
+    - **/00-Introducción**: Documentos relacionados con la introducción al proyecto.
+    - **/01-Analisis**: Documentos relacionados con los análisis realizados durante el desarrollo del proyecto.
+    - **/02-Diseño**: Documentos relacionados con el diseño de la arquitectura y la interfaz de usuario del proyecto.
+
 <div align="center">
 
 ---
