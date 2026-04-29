@@ -1,0 +1,114 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+.vscode
+
+# =========================
+# Frontend (src/frontend)
+# =========================
+
+# Compiled output
+./src/frontend/dist
+./src/frontend/tmp
+./src/frontend/out-tsc
+./src/frontend/bazel-out
+
+# Node
+./src/frontend/node_modules
+./src/frontend/npm-debug.log
+./src/frontend/yarn-error.log
+
+# IDEs and editors
+./src/frontend/.idea/
+./src/frontend/.project
+./src/frontend/.classpath
+./src/frontend/.c9/
+./src/frontend/*.launch
+./src/frontend/.settings/
+./src/frontend/*.sublime-workspace
+
+# Visual Studio Code
+./src/frontend/.vscode/*
+./src/frontend/!.vscode/settings.json
+./src/frontend/!.vscode/tasks.json
+./src/frontend/!.vscode/launch.json
+./src/frontend/!.vscode/extensions.json
+./src/frontend/.history/*
+
+# Miscellaneous
+./src/frontend/.angular/cache
+./src/frontend/.sass-cache/
+./src/frontend/connect.lock
+./src/frontend/coverage
+./src/frontend/libpeerconnection.log
+./src/frontend/testem.log
+./src/frontend/typings
+./src/frontend/__screenshots__/
+
+# System files
+./src/frontend/.DS_Store
+./src/frontend/Thumbs.db
+
+
+# =========================
+# Backend (src/backend)
+# =========================
+
+./src/backend/HELP.md
+./src/backend/target/
+./src/backend/.mvn/wrapper/maven-wrapper.jar
+./src/backend/!**/src/main/**/target/
+./src/backend/!**/src/test/**/target/
+
+### STS ###
+./src/backend/.apt_generated
+./src/backend/.classpath
+./src/backend/.factorypath
+./src/backend/.project
+./src/backend/.settings
+./src/backend/.springBeans
+./src/backend/.sts4-cache
+
+### IntelliJ IDEA ###
+./src/backend/.idea
+./src/backend/*.iws
+./src/backend/*.iml
+./src/backend/*.ipr
+
+### NetBeans ###
+./src/backend/nbproject/private/
+./src/backend/nbbuild/
+./src/backend/dist/
+./src/backend/nbdist/
+./src/backend/.nb-gradle/
+./src/backend/build/
+./src/backend/!**/src/main/**/build/
+./src/backend/!**/src/test/**/build/
+
+### VS Code ###
+./src/backend/.vscode/
+
+### Application secrets ###
+./src/backend/src/main/resources/application-secrets.properties
