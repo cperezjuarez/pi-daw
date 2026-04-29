@@ -39,10 +39,10 @@ Es importante tener en cuenta que la memoria del proyecto es el conjunto de todo
 
 # Demo
 
-Para acceder a la demo de la aplicación, puedes seguir las instrucciones disponibles en **/src**. En esta carpeta se encuentra toda la documentación necesaria para ejecutar el proyecto en tu máquina local, incluyendo los pasos para la instalación de dependencias, ejecución del servidor de desarrollo y construcción del proyecto para producción.
+Para acceder a la demo de la aplicación, puedes seguir las instrucciones disponibles en **/demo**. En esta carpeta se encuentra toda la documentación necesaria para ejecutar de una demo en tu máquina local, incluyendo los pasos para la instalación de dependencias, ejecución del servidor de desarrollo y construcción del proyecto para producción.
 
 > [!IMPORTANT]
-> Es **importante** leer la documentación en [/src/README.md](./src/README.md) antes de ejecutar el proyecto.
+> Es **importante** leer la documentación en [/demo/README.md](./demo/README.md) antes de ejecutar el proyecto.
 
 > [!NOTE]
 > Para acceder al repositorio específico de la demo, dónde se encuentra toda la información detallada del código y desarrollo, puedes acceder a: [Platinum](https://github.com/Kiro85/entregables-projecte-final-dawpi2526_platinum_src).
