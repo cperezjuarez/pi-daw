@@ -1,4 +1,4 @@
-<header align="center">
+<div align="center">
 
 <img src="../assets/readme/banner.png" width="500"/>
 
@@ -42,9 +42,9 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 
 ---
 
-</header>
+</div>
 
-<footer align="center">
+<div align="center">
 
 ---
 
@@ -66,4 +66,4 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
 
-</footer>
+</div>

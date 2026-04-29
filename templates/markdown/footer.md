@@ -1,4 +1,4 @@
-<footer align="center">
+<div align="center">
 
 ---
 
@@ -20,4 +20,4 @@
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
 
-</footer>
+</div>

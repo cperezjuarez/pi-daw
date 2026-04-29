@@ -1,4 +1,4 @@
-<header align="center">
+<div align="center">
 
 <img src="../assets/readme/banner.png" width="500"/>
 
@@ -42,7 +42,7 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 
 ---
 
-</header>
+</div>
 
 # índice
 
@@ -172,7 +172,7 @@ Una vez estás logueado, además de las funcionalidades anteriores, podrás acce
 > [!TIP]
 > Para obtener información adicional sobre detalles técnicos de la demo, se recomienda consultar el repositorio específico de la propia demo, dónde se encuentra toda la información detallada del código y desarrollo. Puedes acceder a: [Platinum](https://github.com/Kiro85/entregables-projecte-final-dawpi2526_platinum_src).
 
-<footer align="center">
+<div align="center">
 
 ---
 
@@ -194,4 +194,4 @@ Una vez estás logueado, además de las funcionalidades anteriores, podrás acce
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
 
-</footer>
+</div>

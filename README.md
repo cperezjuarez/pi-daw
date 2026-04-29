@@ -1,4 +1,4 @@
-<header align="center">
+<div align="center">
 
 <img src="assets/readme/banner.png" width="500"/>
 
@@ -42,7 +42,7 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 
 ---
 
-</header>
+</div>
 
 # Platinum
 
@@ -77,7 +77,7 @@ Para acceder a la demo de la aplicación, puedes seguir las instrucciones dispon
 <hr>
 <p align="center"><small>La documentación del presente repositorio, incluyendo todos los archivos de extensión <i>.md</i> se distribuyen bajo <b>CC BY 4.0</b>. El codigo fuente encontrado dentro de la carpeta <i>/src</i> se distribuye bajo la licencia del repositorio <b>MIT License</b>.</small></p>
 
-<footer align="center">
+<div align="center">
 
 ---
 
@@ -99,4 +99,4 @@ Para acceder a la demo de la aplicación, puedes seguir las instrucciones dispon
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
 
-</footer>
+</div>

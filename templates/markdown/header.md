@@ -1,4 +1,4 @@
-<header align="center">
+<div align="center">
 
 <img src="../../assets/readme/banner.png" width="500"/>
 
@@ -42,4 +42,4 @@ Este repositorio recopila toda la documentación, planificación y recursos rela
 
 ---
 
-</header>
+</div>
