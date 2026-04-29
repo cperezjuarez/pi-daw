@@ -26,89 +26,89 @@ replay_pid*
 .vscode
 
 # =========================
-# Frontend (src/frontend)
+# Frontend
 # =========================
 
 # Compiled output
-./src/frontend/dist
-./src/frontend/tmp
-./src/frontend/out-tsc
-./src/frontend/bazel-out
+./demo/src/frontend/dist
+./demo/src/frontend/tmp
+./demo/src/frontend/out-tsc
+./demo/src/frontend/bazel-out
 
 # Node
-./src/frontend/node_modules
-./src/frontend/npm-debug.log
-./src/frontend/yarn-error.log
+./demo/src/frontend/node_modules
+./demo/src/frontend/npm-debug.log
+./demo/src/frontend/yarn-error.log
 
 # IDEs and editors
-./src/frontend/.idea/
-./src/frontend/.project
-./src/frontend/.classpath
-./src/frontend/.c9/
-./src/frontend/*.launch
-./src/frontend/.settings/
-./src/frontend/*.sublime-workspace
+./demo/src/frontend/.idea/
+./demo/src/frontend/.project
+./demo/src/frontend/.classpath
+./demo/src/frontend/.c9/
+./demo/src/frontend/*.launch
+./demo/src/frontend/.settings/
+./demo/src/frontend/*.sublime-workspace
 
 # Visual Studio Code
-./src/frontend/.vscode/*
-./src/frontend/!.vscode/settings.json
-./src/frontend/!.vscode/tasks.json
-./src/frontend/!.vscode/launch.json
-./src/frontend/!.vscode/extensions.json
-./src/frontend/.history/*
+./demo/src/frontend/.vscode/*
+./demo/src/frontend/!.vscode/settings.json
+./demo/src/frontend/!.vscode/tasks.json
+./demo/src/frontend/!.vscode/launch.json
+./demo/src/frontend/!.vscode/extensions.json
+./demo/src/frontend/.history/*
 
 # Miscellaneous
-./src/frontend/.angular/cache
-./src/frontend/.sass-cache/
-./src/frontend/connect.lock
-./src/frontend/coverage
-./src/frontend/libpeerconnection.log
-./src/frontend/testem.log
-./src/frontend/typings
-./src/frontend/__screenshots__/
+./demo/src/frontend/.angular/cache
+./demo/src/frontend/.sass-cache/
+./demo/src/frontend/connect.lock
+./demo/src/frontend/coverage
+./demo/src/frontend/libpeerconnection.log
+./demo/src/frontend/testem.log
+./demo/src/frontend/typings
+./demo/src/frontend/__screenshots__/
 
 # System files
-./src/frontend/.DS_Store
-./src/frontend/Thumbs.db
+./demo/src/frontend/.DS_Store
+./demo/src/frontend/Thumbs.db
 
 
 # =========================
-# Backend (src/backend)
+# Backend
 # =========================
 
-./src/backend/HELP.md
-./src/backend/target/
-./src/backend/.mvn/wrapper/maven-wrapper.jar
-./src/backend/!**/src/main/**/target/
-./src/backend/!**/src/test/**/target/
+./demo/src/backend/HELP.md
+./demo/src/backend/target/
+./demo/src/backend/.mvn/wrapper/maven-wrapper.jar
+./demo/src/backend/!**/src/main/**/target/
+./demo/src/backend/!**/src/test/**/target/
 
 ### STS ###
-./src/backend/.apt_generated
-./src/backend/.classpath
-./src/backend/.factorypath
-./src/backend/.project
-./src/backend/.settings
-./src/backend/.springBeans
-./src/backend/.sts4-cache
+./demo/src/backend/.apt_generated
+./demo/src/backend/.classpath
+./demo/src/backend/.factorypath
+./demo/src/backend/.project
+./demo/src/backend/.settings
+./demo/src/backend/.springBeans
+./demo/src/backend/.sts4-cache
 
 ### IntelliJ IDEA ###
-./src/backend/.idea
-./src/backend/*.iws
-./src/backend/*.iml
-./src/backend/*.ipr
+./demo/src/backend/.idea
+./demo/src/backend/*.iws
+./demo/src/backend/*.iml
+./demo/src/backend/*.ipr
 
 ### NetBeans ###
-./src/backend/nbproject/private/
-./src/backend/nbbuild/
-./src/backend/dist/
-./src/backend/nbdist/
-./src/backend/.nb-gradle/
-./src/backend/build/
-./src/backend/!**/src/main/**/build/
-./src/backend/!**/src/test/**/build/
+./demo/src/backend/nbproject/private/
+./demo/src/backend/nbbuild/
+./demo/src/backend/dist/
+./demo/src/backend/nbdist/
+./demo/src/backend/.nb-gradle/
+./demo/src/backend/build/
+./demo/src/backend/!**/src/main/**/build/
+./demo/src/backend/!**/src/test/**/build/
 
 ### VS Code ###
-./src/backend/.vscode/
+./demo/src/backend/.vscode/
 
 ### Application secrets ###
-./src/backend/src/main/resources/application-secrets.properties
+./demo/src/backend/src/main/resources/application-secrets.properties

@@ -74,7 +74,7 @@ Para restaurar la base de datos, se debe seguir los siguientes pasos:
     - Seleccionar el archivo `platinum.sql` que se encuentra en la raíz de la carpeta `/demo/src`
     - Click en `Restore`
 
-> [!NOTE]
+> [!IMPORTANT]
 > Es **importante** que el nombre de usuario y contraseña de la base de datos sean `postgres` y `root` respectivamente, ya que estos datos están configurados en el proyecto para la conexión a la base de datos. Si se utilizan otros datos, será necesario modificar la configuración del proyecto para que funcione correctamente.
 
 # Ejecución
@@ -114,7 +114,7 @@ En la demo se han creado tres usuarios con cuentas vinculadas de Steam para faci
 
 Si se desea crear un nuevo usuario, se puede hacer a través de la página de registro de la demo. Una vez se ha creado el usuario, es necesario vincularlo con una cuenta de Steam para poder acceder a las funciones de la aplicación relacionadas con los juegos y logros. Para vincular una cuenta de Steam, se debe acceder al perfil de usuario y hacer click en el botón de vinculación de Steam. Es importante tener en cuenta que para vincular una cuenta de Steam, es necesario crear previamente una cuenta de Steam.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Si se decide crear un usuario y vincularlo a una cuenta de Steam, es posible encontrarse un error. Una vez has iniciado tu sesión de Steam y se te redirige a la página de tu perfil de usuario en la demo, no verás tus datos hasta que no refresques la página.
 
 # ¿Qué otras cosas se pueden hacer?
@@ -130,3 +130,6 @@ Una vez estás logueado, además de las funcionalidades anteriores, podrás acce
 
 - Acceder a tu perfil de usuario, dónde podrás ver tu información personal, tus juegos y logros.
 - Si accedes a un juego desde tu perfil de usuario o en el perfil de otro usuario registrado y te diriges a la sección de logros, podrás ver los logros que dicho usuario (tú mismo u otro usuario registrado) ha obtenido en dicho juego.
+
+> [!TIP]
+> Para obtener información adicional sobre detalles técnicos de la demo, se recomienda consultar el repositorio específico de la propia demo, dónde se encuentra toda la información detallada del código y desarrollo. Puedes acceder a: [Platinum](https://github.com/Kiro85/entregables-projecte-final-dawpi2526_platinum_src).
