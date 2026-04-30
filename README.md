@@ -12,7 +12,7 @@
 
 <!-- BADGES GENERALES -->
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
-<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/version-0.5-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/docs-included-success?style=for-the-badge" />
 
@@ -55,14 +55,14 @@ Para más información sobre el desarrollo y estudio de este proyecto, se recomi
 > [!NOTE]
 > Documentación disponible en: [/docs/README.md](./docs/README.md).
 
-# 📄 Memoria del proyecto
+# 📄 Entregables
 
-En la memoria del proyecto es un documento detallado que explica el proceso de desarrollo del proyecto, incluyendo la planificación, diseño, implementación y resultados obtenidos. Este documento es una parte fundamental del proyecto, ya que permite comprender el proceso de desarrollo y los resultados obtenidos, así como las decisiones tomadas durante el desarrollo del proyecto. Se recomienda consultar la memoria del proyecto para obtener una visión completa del desarrollo del proyecto y los resultados obtenidos.
+La carpeta **/docs/deliverables** contiene los archivos de entrega del proyecto, incluyendo la memoria y la presentación. Estos documentos son fundamentales para la evaluación del proyecto, ya que contienen toda la información detallada sobre el desarrollo del proyecto, incluyendo la planificación, diseño, implementación y resultados obtenidos. Se recomienda consultar estos documentos para obtener una visión completa del desarrollo del proyecto y los resultados obtenidos.
 
 Es importante tener en cuenta que la memoria del proyecto es el conjunto de todo el estudio y planificación previa al desarrollo del proyecto, por tanto, se puede encontrar más información que la disponible en los recursos proporcionados en la carpeta **/docs**.
 
 > [!NOTE]
-> Memoria disponible en: [/memoria.pdf](./memoria.pdf).
+> Memoria disponible en: [/docs/deliverables/cfgs-daw-pi-v0.5.pdf](./docs/deliverables/cfgs-daw-pi-v0.5.pdf).
 
 # 🎮 Demo
 
@@ -97,6 +97,6 @@ La licencia del proyecto es la **MIT License**, lo que significa que el proyecto
 
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
-<img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/CFGS-DAW-blue?style=for-the-badge" />
 
 </div>

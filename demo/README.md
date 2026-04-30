@@ -12,7 +12,7 @@
 
 <!-- BADGES GENERALES -->
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
-<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/version-0.5-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/docs-included-success?style=for-the-badge" />
 
@@ -118,6 +118,22 @@ Para restaurar la base de datos, se debe seguir los siguientes pasos:
 > [!IMPORTANT]
 > Es **importante** que el nombre de usuario y contraseña de la base de datos sean `postgres` y `root` respectivamente, ya que estos datos están configurados en el proyecto para la conexión a la base de datos. Si se utilizan otros datos, será necesario modificar la configuración del proyecto para que funcione correctamente.
 
+## Claves secretas
+Para que la demo funcione correctamente, es necesario configurar las claves secretas para la conexión con la API de Steam. Estas claves se utilizan para obtener información sobre los juegos, logros y usuarios de Steam. Para configurar las claves secretas, se deben seguir los siguientes pasos:
+1. Crear el archivo **application-secrets.properties** en la ruta `/demo/src/backend/src/main/resources` con el siguiente contenido:
+
+```properties
+steam.api-key=KEY-DE-STEAM
+steam.api-url=https://api.steampowered.com
+steam.store-url=https://store.steampowered.com
+```
+
+> [!NOTE]
+> Para obtener una clave de API de Steam, es necesario crear una cuenta de Steam y registrarse como desarrollador en el sitio web de Steam. Una vez registrado, se puede generar una clave de API desde el panel de control del desarrollador. Es importante mantener esta clave en secreto, ya que se utiliza para acceder a la información de la API de Steam y podría ser utilizada por terceros para acceder a dicha información sin autorización.
+
+> [!NOTE]
+> Si no se configura la clave de API de Steam, no será posible recopilar información nueva, pero la demo seguirá funcionando correctamente utilizando la información que ya se encuentra almacenada en la base de datos.
+
 # 🚀 Ejecución
 
 Una vez se han seguido todos los pasos anteriores, se puede proceder a la ejecución de la demo. Para ello, se deben ejecutar los siguientes comandos en las rutas correspondientes:
@@ -195,6 +211,6 @@ Una vez estás logueado, además de las funcionalidades anteriores, podrás acce
 
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
-<img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/CFGS-DAW-blue?style=for-the-badge" />
 
 </div>

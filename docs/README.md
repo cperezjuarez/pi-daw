@@ -12,7 +12,7 @@
 
 <!-- BADGES GENERALES -->
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
-<img src="https://img.shields.io/badge/version-1.0-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/version-0.5-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/docs-included-success?style=for-the-badge" />
 
@@ -74,6 +74,6 @@ La documentación y recursos relacionados con el desarrollo se organizan de la s
 
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
-<img src="https://img.shields.io/badge/DAW-project-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/CFGS-DAW-blue?style=for-the-badge" />
 
 </div>
