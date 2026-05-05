@@ -112,7 +112,7 @@ Para restaurar la base de datos, se debe seguir los siguientes pasos:
 3. Restaurar la base de datos desde el archivo `platinum.sql`. Para ello seguimos los siguientes pasos:
     - Click derecho en la base de datos `platinum` -> `Restore`
     - Formato: `Plain`
-    - Seleccionar el archivo `platinum.sql` que se encuentra en la raíz de la carpeta `/demo/src`
+    - Seleccionar el archivo `platinum.sql` que se encuentra en la raíz de la carpeta `/demo/src`. Para que salga, es necesario cambiar el filtro de archivos a `All Files (*.*)`.
     - Click en `Restore`
 
 > [!IMPORTANT]
@@ -120,16 +120,17 @@ Para restaurar la base de datos, se debe seguir los siguientes pasos:
 
 ## Claves secretas
 Para que la demo funcione correctamente, es necesario configurar las claves secretas para la conexión con la API de Steam. Estas claves se utilizan para obtener información sobre los juegos, logros y usuarios de Steam. Para configurar las claves secretas, se deben seguir los siguientes pasos:
-1. Crear el archivo **application-secrets.properties** en la ruta `/demo/src/backend/src/main/resources` con el siguiente contenido:
+1. Dirigete a `/demo/src/backend/src/main/resources` y renombra el archivo `application-secrets-example.properties` a `application-secrets.properties`. Este archivo contendrá lo siguiente:
 
 ```properties
-steam.api-key=KEY-DE-STEAM
+steam.api-key=STEAM-KEY
 steam.api-url=https://api.steampowered.com
 steam.store-url=https://store.steampowered.com
 ```
 
-> [!NOTE]
-> Para obtener una clave de API de Steam, es necesario crear una cuenta de Steam y registrarse como desarrollador en el sitio web de Steam. Una vez registrado, se puede generar una clave de API desde el panel de control del desarrollador. Es importante mantener esta clave en secreto, ya que se utiliza para acceder a la información de la API de Steam y podría ser utilizada por terceros para acceder a dicha información sin autorización.
+2. Reemplaza `STEAM-KEY` por tu clave de API de Steam. Si no tienes una clave de API de Steam, puedes obtenerla siguiendo las instrucciones proporcionadas en la documentación oficial de Steam.
+
+> Para obtener la clave visita [Steam API Key](https://steamcommunity.com/dev/apikey)
 
 > [!NOTE]
 > Si no se configura la clave de API de Steam, no será posible recopilar información nueva, pero la demo seguirá funcionando correctamente utilizando la información que ya se encuentra almacenada en la base de datos.
