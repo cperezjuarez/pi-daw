@@ -53,6 +53,7 @@ La documentación y recursos relacionados con el desarrollo se organizan de la s
     - **/00-Introducción**: Documentos relacionados con la introducción al proyecto.
     - **/01-Analisis**: Documentos relacionados con los análisis realizados durante el desarrollo del proyecto.
     - **/02-Diseño**: Documentos relacionados con el diseño de la arquitectura y la interfaz de usuario del proyecto.
+    - **/deliverables**: Documentos relacionados con los entregables del proyecto, incluyendo la memoria y la presentación final.
 
 <div align="center">
 
