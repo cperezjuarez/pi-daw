@@ -12,7 +12,7 @@
 
 <!-- BADGES GENERALES -->
 <img src="https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge" />
-<img src="https://img.shields.io/badge/version-0.5-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/version-0.6-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/type-fullstack-important?style=for-the-badge" />
 <img src="https://img.shields.io/badge/docs-included-success?style=for-the-badge" />
 
